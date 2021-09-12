@@ -21,7 +21,8 @@ jobs:
             region: "XID"
           - model: "SM-M205M"
             region: "ZTO"
-
+          - model: "SM-M205N"
+            region: "KOO"
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
